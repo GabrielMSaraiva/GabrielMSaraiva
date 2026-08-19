@@ -14,12 +14,24 @@ I'm a Full Stack Developer with **4+ years of professional experience** building
 
 ## What I bring
 
-| | |
-| --- | --- |
-| **Product engineering** | End-to-end ownership from product requirements to production delivery |
-| **SaaS architecture** | Multi-tenancy, RBAC, webhooks, background jobs, and real-time flows |
-| **Trust & reliability** | Secure document handling, audit trails, idempotent payments, and testing |
-| **Integrations** | AWS, Stripe, OpenAI/LLMs, Shopify, WhatsApp, email, identity, and screening services |
+<table>
+  <tr>
+    <td><strong>Product engineering</strong></td>
+    <td>End-to-end ownership from product requirements to production delivery</td>
+  </tr>
+  <tr>
+    <td><strong>SaaS architecture</strong></td>
+    <td>Multi-tenancy, RBAC, webhooks, background jobs, and real-time flows</td>
+  </tr>
+  <tr>
+    <td><strong>Trust &amp; reliability</strong></td>
+    <td>Secure document handling, audit trails, idempotent payments, and testing</td>
+  </tr>
+  <tr>
+    <td><strong>Integrations</strong></td>
+    <td>AWS, Stripe, OpenAI/LLMs, Shopify, WhatsApp, email, identity, and screening services</td>
+  </tr>
+</table>
 
 ## Toolbox
 
