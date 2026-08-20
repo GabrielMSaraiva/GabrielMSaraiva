@@ -10,7 +10,7 @@
 
 ## About me
 
-I'm a Full Stack Developer with **4+ years of professional experience** building and operating production SaaS products. I work across the stack - turning product requirements into polished interfaces, reliable APIs, data models, authentication, payments, and third-party integrations.
+I'm a Full Stack Developer with 4+ years of experience building SaaS products. I work mostly with TypeScript, React, Next.js, and Node.js, and I'm comfortable owning features end to end, from the frontend to APIs, databases, authentication, and integrations.
 
 ## What I bring
 
