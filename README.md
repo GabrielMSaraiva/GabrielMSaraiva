@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Gabriel Saraiva - Full Stack Developer" />
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile-banner-mobile.svg" />
+    <img src="./assets/profile-banner.svg" width="100%" alt="Gabriel Saraiva — Full Stack Developer focused on reliable SaaS products, web performance, and developer experience" />
+  </picture>
 </p>
 
 <p align="center">
