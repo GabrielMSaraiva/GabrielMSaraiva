@@ -1,11 +1,4 @@
 <p align="center">
-  <picture>
-    <source media="(max-width: 640px)" srcset="./assets/profile-banner-mobile.svg?v=2" />
-    <img src="./assets/profile-banner.svg?v=2" width="100%" alt="Gabriel Saraiva — Full Stack Developer focused on reliable SaaS products, web performance, and developer experience" />
-  </picture>
-</p>
-
-<p align="center">
   <a href="https://www.linkedin.com/in/gabrielmsaraiva/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:gabrielsaraivadev@outlook.com"><img src="https://img.shields.io/badge/Email-Say%20hello-0F766E?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
   <img src="https://img.shields.io/badge/Based%20in-Brazil-334155?style=flat-square&logo=googlemaps&logoColor=white" alt="Based in Brazil" />
