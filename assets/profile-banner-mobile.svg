@@ -1,0 +1,46 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Gabriel Saraiva — Full Stack Developer</title>
+  <desc id="description">Mobile profile banner for Gabriel Saraiva, focused on reliable SaaS products, web performance, and developer experience.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="80" y1="25" x2="660" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#030405" />
+      <stop offset="0.58" stop-color="#090B0E" />
+      <stop offset="1" stop-color="#020304" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(570 610) rotate(180) scale(350 170)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCE4EF" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#050608" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="720" height="720" fill="url(#background)" />
+  <rect x="16" y="16" width="688" height="688" rx="28" stroke="#30343A" stroke-width="2" />
+  <rect x="16" y="480" width="688" height="224" fill="url(#glow)" />
+
+  <g opacity="0.25" stroke="#65707D">
+    <path d="M16 586H704M16 624H704M16 666H704" />
+    <path d="M86 704L570 586M250 704L570 586M420 704L570 586M554 704L570 586" />
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="60" y="74" width="4" height="28" rx="2" fill="#F8FAFC" />
+    <text x="82" y="97" fill="#C7CBD1" font-size="20" font-weight="650" letter-spacing="5">FULL STACK DEVELOPER</text>
+
+    <text x="58" y="198" fill="#F8FAFC" font-size="66" font-weight="760" letter-spacing="-2">Gabriel Saraiva</text>
+    <text x="61" y="254" fill="#B2B7BE" font-size="26" font-weight="430">Building reliable SaaS products,</text>
+    <text x="61" y="291" fill="#F8FAFC" font-size="26" font-weight="650">end to end.</text>
+
+    <path d="M60 338H660" stroke="#2B2F35" />
+
+    <g transform="translate(60 376)">
+      <rect width="600" height="164" rx="22" fill="#090B0E" stroke="#30343A" />
+      <circle cx="72" cy="82" r="35" stroke="#F8FAFC" stroke-width="4" />
+      <path d="M37 82H107M72 47C60 58 57 69 57 82C57 95 60 106 72 117M72 47C84 58 87 69 87 82C87 95 84 106 72 117" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round" />
+      <text x="136" y="65" fill="#A8ADB5" font-size="20" font-weight="650" letter-spacing="5">FOCUSED ON</text>
+      <text x="136" y="108" fill="#F1F3F5" font-size="30" font-weight="500">Web performance &amp; DX</text>
+    </g>
+
+    <text x="60" y="628" fill="#9FA5AD" font-size="23" font-weight="550" letter-spacing="1">TypeScript  <tspan fill="#5D646D">•</tspan>  React  <tspan fill="#5D646D">•</tspan>  Node.js</text>
+  </g>
+</svg>

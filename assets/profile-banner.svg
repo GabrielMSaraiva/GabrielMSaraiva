@@ -1,96 +1,107 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
-  <title id="title">Gabriel Saraiva - Full Stack Developer</title>
-  <desc id="description">Dark blue developer profile banner with connected interface, API, and data layers.</desc>
+<svg width="1600" height="640" viewBox="0 0 1600 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Gabriel Saraiva — Full Stack Developer</title>
+  <desc id="description">Gabriel Saraiva builds reliable SaaS products with TypeScript, React, Next.js, Tailwind CSS, and Node.js, with a focus on web performance and developer experience.</desc>
 
   <defs>
-    <linearGradient id="background" x1="70" y1="24" x2="1120" y2="350" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#071426" />
-      <stop offset="0.52" stop-color="#0A2342" />
-      <stop offset="1" stop-color="#11123A" />
+    <linearGradient id="background" x1="130" y1="30" x2="1450" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#030405" />
+      <stop offset="0.56" stop-color="#080A0D" />
+      <stop offset="1" stop-color="#020304" />
     </linearGradient>
-    <linearGradient id="accent" x1="110" y1="106" x2="610" y2="106" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE" />
-      <stop offset="1" stop-color="#8B5CF6" />
+    <radialGradient id="horizonGlow" cx="0" cy="0" r="1" gradientTransform="translate(1018 472) rotate(180) scale(410 170)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCE4EF" stop-opacity="0.28" />
+      <stop offset="0.42" stop-color="#778391" stop-opacity="0.08" />
+      <stop offset="1" stop-color="#050608" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="fadeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#F8FAFC" stop-opacity="0" />
+      <stop offset="0.45" stop-color="#F8FAFC" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#F8FAFC" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#163A5F" stop-opacity="0.95" />
-      <stop offset="1" stop-color="#111C44" stop-opacity="0.88" />
-    </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#93C5FD" stroke-opacity="0.08" stroke-width="1" />
-    </pattern>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="7" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#020617" flood-opacity="0.5" />
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10" />
     </filter>
   </defs>
 
-  <rect width="1200" height="360" rx="28" fill="url(#background)" />
-  <rect width="1200" height="360" rx="28" fill="url(#grid)" />
+  <rect width="1600" height="640" fill="url(#background)" />
+  <rect x="24" y="24" width="1552" height="592" rx="30" stroke="#30343A" stroke-width="2" />
+  <rect x="24" y="350" width="1016" height="266" fill="url(#horizonGlow)" />
 
-  <circle cx="1115" cy="70" r="150" fill="#7C3AED" fill-opacity="0.08" />
-  <circle cx="1010" cy="315" r="180" fill="#06B6D4" fill-opacity="0.07" />
+  <g opacity="0.34" stroke="#65707D" stroke-width="1">
+    <path d="M24 472H1040" />
+    <path d="M24 500H1040" opacity="0.68" />
+    <path d="M24 534H1040" opacity="0.52" />
+    <path d="M24 574H1040" opacity="0.38" />
+    <path d="M24 616H1040" opacity="0.24" />
+    <path d="M110 616L1018 472" />
+    <path d="M330 616L1018 472" />
+    <path d="M560 616L1018 472" />
+    <path d="M790 616L1018 472" />
+    <path d="M970 616L1018 472" />
+  </g>
+  <path d="M24 472H1100" stroke="url(#fadeLine)" stroke-width="2" />
+  <ellipse cx="1018" cy="472" rx="170" ry="10" fill="#D9E0E8" fill-opacity="0.12" filter="url(#softGlow)" />
+
+  <path d="M1040 66V574" stroke="#30343A" />
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="72" y="78" fill="#67E8F9" font-size="15" font-weight="700" letter-spacing="4">FULL STACK DEVELOPER</text>
-    <rect x="72" y="100" width="490" height="4" rx="2" fill="url(#accent)" />
-    <text x="72" y="174" fill="#F8FAFC" font-size="58" font-weight="750" letter-spacing="-1.5">Gabriel Saraiva</text>
-    <text x="75" y="218" fill="#CBD5E1" font-size="22" font-weight="450">Building reliable SaaS products, end to end.</text>
+    <rect x="100" y="128" width="4" height="30" rx="2" fill="#F8FAFC" />
+    <text x="124" y="153" fill="#C7CBD1" font-size="22" font-weight="650" letter-spacing="8">FULL STACK DEVELOPER</text>
 
-    <g transform="translate(74 263)">
-      <rect width="142" height="36" rx="18" fill="#0E7490" fill-opacity="0.28" stroke="#22D3EE" stroke-opacity="0.55" />
-      <circle cx="19" cy="18" r="5" fill="#22D3EE" filter="url(#glow)" />
-      <text x="34" y="23" fill="#CFFAFE" font-size="14" font-weight="650">TypeScript</text>
+    <text x="100" y="292" fill="#F8FAFC" font-size="88" font-weight="760" letter-spacing="-3">Gabriel Saraiva</text>
+    <text x="102" y="362" fill="#A5AAB2" font-size="31" font-weight="400">Building reliable SaaS products, <tspan fill="#F8FAFC" font-weight="650">end to end.</tspan></text>
+
+    <g transform="translate(100 408)">
+      <rect width="194" height="64" rx="13" fill="#080A0D" stroke="#343941" />
+      <path d="M28 45L46 15L64 45H28Z" fill="#F8FAFC" />
+      <text x="78" y="40" fill="#E8EAED" font-size="23" font-weight="520">Next.js</text>
     </g>
-    <g transform="translate(228 263)">
-      <rect width="112" height="36" rx="18" fill="#0E7490" fill-opacity="0.2" stroke="#38BDF8" stroke-opacity="0.45" />
-      <circle cx="19" cy="18" r="5" fill="#38BDF8" />
-      <text x="34" y="23" fill="#E0F2FE" font-size="14" font-weight="650">React</text>
+
+    <g transform="translate(310 408)">
+      <rect width="224" height="64" rx="13" fill="#080A0D" stroke="#343941" />
+      <rect x="23" y="17" width="31" height="31" rx="3" fill="#3178C6" />
+      <text x="28" y="40" fill="white" font-size="17" font-weight="750">TS</text>
+      <text x="70" y="40" fill="#E8EAED" font-size="23" font-weight="520">TypeScript</text>
     </g>
-    <g transform="translate(352 263)">
-      <rect width="126" height="36" rx="18" fill="#5B21B6" fill-opacity="0.2" stroke="#A78BFA" stroke-opacity="0.5" />
-      <circle cx="19" cy="18" r="5" fill="#A78BFA" />
-      <text x="34" y="23" fill="#EDE9FE" font-size="14" font-weight="650">Node.js</text>
+
+    <g transform="translate(550 408)">
+      <rect width="254" height="64" rx="13" fill="#080A0D" stroke="#343941" />
+      <path d="M24 37C30 25 38 23 48 29C54 33 60 34 68 27C62 40 53 44 43 38C36 34 30 33 24 37Z" fill="#38BDF8" />
+      <path d="M29 45C36 35 44 35 52 40C58 44 65 44 72 37C67 49 57 53 47 47C40 43 35 42 29 45Z" fill="#0EA5E9" />
+      <text x="86" y="40" fill="#E8EAED" font-size="23" font-weight="520">Tailwind CSS</text>
+    </g>
+
+    <g transform="translate(820 408)">
+      <rect width="188" height="64" rx="13" fill="#080A0D" stroke="#343941" />
+      <path d="M40 15L55 24V42L40 51L25 42V24L40 15Z" stroke="#65A30D" stroke-width="4" />
+      <text x="31" y="39" fill="#84CC16" font-size="14" font-weight="750">JS</text>
+      <text x="70" y="40" fill="#E8EAED" font-size="23" font-weight="520">Node.js</text>
+    </g>
+
+    <g transform="translate(1100 106)">
+      <rect width="76" height="76" rx="16" fill="#090B0E" stroke="#2F343B" />
+      <path d="M26 26L38 38L26 50M42 51H56" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="102" y="28" fill="#A8ADB5" font-size="18" font-weight="650" letter-spacing="5">CURRENTLY</text>
+      <text x="102" y="67" fill="#F1F3F5" font-size="25" font-weight="430">Building SaaS products</text>
+    </g>
+
+    <path d="M1100 220H1500" stroke="#25292F" />
+
+    <g transform="translate(1100 258)">
+      <rect width="76" height="76" rx="16" fill="#090B0E" stroke="#2F343B" />
+      <circle cx="38" cy="38" r="20" stroke="#F8FAFC" stroke-width="3" />
+      <path d="M18 38H58M38 18C31 25 29 31 29 38C29 45 31 51 38 58M38 18C45 25 47 31 47 38C47 45 45 51 38 58" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round" />
+      <text x="102" y="28" fill="#A8ADB5" font-size="18" font-weight="650" letter-spacing="5">FOCUSED ON</text>
+      <text x="102" y="67" fill="#F1F3F5" font-size="25" font-weight="430">Web performance &amp; DX</text>
+    </g>
+
+    <path d="M1100 372H1500" stroke="#25292F" />
+
+    <g transform="translate(1100 410)">
+      <rect width="76" height="76" rx="16" fill="#090B0E" stroke="#2F343B" />
+      <path d="M38 18L56 28V48L38 58L20 48V28L38 18ZM20 28L38 39M56 28L38 39M38 39V58" stroke="#F8FAFC" stroke-width="3" stroke-linejoin="round" />
+      <text x="102" y="28" fill="#A8ADB5" font-size="18" font-weight="650" letter-spacing="5">BASED IN</text>
+      <text x="102" y="67" fill="#F1F3F5" font-size="25" font-weight="430">Brazil <tspan fill="#777D86">•</tspan> Remote</text>
     </g>
   </g>
-
-  <g filter="url(#shadow)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <path d="M890 112 L890 151" stroke="#38BDF8" stroke-width="2" stroke-dasharray="5 6" />
-    <path d="M890 209 L890 248" stroke="#A78BFA" stroke-width="2" stroke-dasharray="5 6" />
-
-    <g transform="translate(720 54)">
-      <rect width="340" height="72" rx="16" fill="url(#card)" stroke="#38BDF8" stroke-opacity="0.5" />
-      <rect x="20" y="20" width="32" height="32" rx="9" fill="#0E7490" />
-      <path d="M30 31H42M30 37H39M30 43H35" stroke="#CFFAFE" stroke-width="2" stroke-linecap="round" />
-      <text x="70" y="32" fill="#F8FAFC" font-size="16" font-weight="700">INTERFACE</text>
-      <text x="70" y="53" fill="#94A3B8" font-size="13">React · Next.js · Angular</text>
-    </g>
-
-    <g transform="translate(720 151)">
-      <rect width="340" height="72" rx="16" fill="url(#card)" stroke="#818CF8" stroke-opacity="0.48" />
-      <rect x="20" y="20" width="32" height="32" rx="9" fill="#3730A3" />
-      <path d="M29 36H43M34 30L28 36L34 42M38 30L44 36L38 42" stroke="#E0E7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-      <text x="70" y="32" fill="#F8FAFC" font-size="16" font-weight="700">API &amp; SERVICES</text>
-      <text x="70" y="53" fill="#94A3B8" font-size="13">Node.js · NestJS · WebSockets</text>
-    </g>
-
-    <g transform="translate(720 248)">
-      <rect width="340" height="72" rx="16" fill="url(#card)" stroke="#A78BFA" stroke-opacity="0.48" />
-      <rect x="20" y="20" width="32" height="32" rx="9" fill="#5B21B6" />
-      <ellipse cx="36" cy="29" rx="9" ry="4" stroke="#EDE9FE" stroke-width="2" />
-      <path d="M27 29V42C27 44.2 31 46 36 46C41 46 45 44.2 45 42V29M27 35.5C27 37.7 31 39.5 36 39.5C41 39.5 45 37.7 45 35.5" stroke="#EDE9FE" stroke-width="2" />
-      <text x="70" y="32" fill="#F8FAFC" font-size="16" font-weight="700">DATA &amp; CLOUD</text>
-      <text x="70" y="53" fill="#94A3B8" font-size="13">PostgreSQL · Prisma · AWS</text>
-    </g>
-  </g>
-
-  <circle cx="1136" cy="180" r="4" fill="#22D3EE" filter="url(#glow)" />
-  <circle cx="1100" cy="210" r="3" fill="#A78BFA" />
-  <circle cx="1154" cy="238" r="2.5" fill="#38BDF8" />
 </svg>
