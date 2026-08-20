@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://www.linkedin.com/in/gabrielmsaraiva/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:gabrielsaraivadev@outlook.com"><img src="https://img.shields.io/badge/Email-Say%20hello-0F766E?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Based%20in-Brazil-334155?style=flat-square&logo=googlemaps&logoColor=white" alt="Based in Brazil" />
-</p>
-
 ## About me
 
 I'm a Full Stack Developer with 4+ years of experience building SaaS products. I work mostly with TypeScript, React, Next.js, and Node.js, and I'm comfortable owning features end to end, from the frontend to APIs, databases, authentication, and integrations.
