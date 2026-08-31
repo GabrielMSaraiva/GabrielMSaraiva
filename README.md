@@ -4,13 +4,13 @@
 
 **Full-Stack Engineer · TypeScript · React · Node.js · Next.js · NestJS**
 
-4+ years building production SaaS products across frontend, backend, integrations, and cloud.
-
-🇧🇷 Brazil · Open to remote opportunities
+I'm a full-stack engineer based in Brazil. I've spent 4+ years building production SaaS products, mostly with TypeScript, React, Next.js, Node.js, and NestJS.
 
 </div>
 
 ---
+
+<div align="center">
 
 ## Technologies
 
@@ -25,3 +25,5 @@
 ### Testing & Delivery
 
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
+
+</div>
